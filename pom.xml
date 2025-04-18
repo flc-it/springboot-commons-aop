@@ -39,7 +39,7 @@
     <!-- Paramètres gestionnaire de ticket -->
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/flc-it/springboot-commons-jms/issues</url>
+        <url>https://github.com/flc-it/springboot-commons-aop/issues</url>
     </issueManagement>
 
     <!-- Paramétrage du server de livraison -->
