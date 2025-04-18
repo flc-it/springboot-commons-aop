@@ -44,10 +44,18 @@ public class Seuil {
         this.type = type != null ? type : TypeSeuil.NOMBRE;
     }
 
+    /**
+     * @param value
+     * @return
+     */
     public static final Seuil getInstance(Object value) {
         return getInstance(org.flcit.commons.core.util.StringUtils.convert(value));
     }
 
+    /**
+     * @param value
+     * @return
+     */
     public static final Seuil getInstance(String value) {
         if (!StringUtils.hasLength(value)) {
             return null;
