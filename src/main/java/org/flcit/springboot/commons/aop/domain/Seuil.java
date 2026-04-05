@@ -23,7 +23,7 @@ import org.flcit.commons.core.util.NumberUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class Seuil {

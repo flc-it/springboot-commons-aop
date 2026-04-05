@@ -25,7 +25,7 @@ import org.flcit.springboot.commons.aop.util.CounterUtils;
 
 /**
  * @param <T>
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public class SimpleCounterService<T> {

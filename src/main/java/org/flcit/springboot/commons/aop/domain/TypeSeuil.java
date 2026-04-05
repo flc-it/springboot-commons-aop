@@ -18,7 +18,7 @@ package org.flcit.springboot.commons.aop.domain;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public enum TypeSeuil {

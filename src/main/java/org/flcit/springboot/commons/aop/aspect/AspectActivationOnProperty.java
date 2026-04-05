@@ -36,7 +36,7 @@ import org.springframework.lang.Nullable;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @Aspect

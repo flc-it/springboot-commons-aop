@@ -29,7 +29,7 @@ import org.flcit.commons.core.util.StringUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @Target(ElementType.METHOD)

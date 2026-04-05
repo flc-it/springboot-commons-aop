@@ -28,7 +28,7 @@ import org.flcit.springboot.commons.core.util.PropertyUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 public final class PartialActivationOnPropertyUtils {
