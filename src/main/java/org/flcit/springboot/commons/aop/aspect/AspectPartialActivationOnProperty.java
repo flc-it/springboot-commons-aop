@@ -28,18 +28,18 @@ import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.cache.Cache;
 import org.springframework.core.env.ConfigurableEnvironment;
-import org.springframework.lang.Nullable;
 
 import org.flcit.springboot.commons.aop.annotation.PartialActivationOnProperty;
 import org.flcit.springboot.commons.aop.domain.Seuil;
 import org.flcit.springboot.commons.aop.service.SimpleCounterService;
 import org.flcit.springboot.commons.aop.util.PartialActivationOnPropertyUtils;
 import org.flcit.springboot.commons.core.util.CacheUtils;
+import org.jspecify.annotations.Nullable;
 import org.flcit.commons.core.util.ThrowableUtils;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @Aspect

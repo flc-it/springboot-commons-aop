@@ -24,7 +24,7 @@ import org.flcit.springboot.commons.aop.aspect.AspectPartialActivationOnProperty
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @AutoConfiguration

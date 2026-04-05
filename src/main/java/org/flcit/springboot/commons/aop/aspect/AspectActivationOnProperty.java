@@ -28,15 +28,15 @@ import org.flcit.commons.core.util.ThrowableUtils;
 import org.flcit.springboot.commons.aop.annotation.ActivationOnProperty;
 import org.flcit.springboot.commons.core.util.CacheUtils;
 import org.flcit.springboot.commons.core.util.PropertyUtils;
+import org.jspecify.annotations.Nullable;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.cache.Cache;
 import org.springframework.core.env.ConfigurableEnvironment;
-import org.springframework.lang.Nullable;
 
 /**
  * 
- * @since 
+ * @since 1.0.0
  * @author Florian Lestic
  */
 @Aspect
