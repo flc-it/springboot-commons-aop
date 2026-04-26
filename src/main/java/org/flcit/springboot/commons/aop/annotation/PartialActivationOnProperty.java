@@ -24,8 +24,8 @@ import java.lang.annotation.Target;
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
 
-import org.flcit.springboot.commons.core.exception.ServiceUnavailableException;
 import org.flcit.commons.core.util.StringUtils;
+import org.flcit.springboot.commons.aop.exception.ServiceDeactivatedException;
 
 /**
  * 
@@ -61,7 +61,7 @@ public @interface PartialActivationOnProperty {
      * The Throwable must have a constructor with string parameter if a throwableMessage is not empty
      * The Throwable must have a no arg constructor if throwableMessage is empty
      */
-    Class<? extends Throwable> throwable() default ServiceUnavailableException.class;
+    Class<? extends Throwable> throwable() default ServiceDeactivatedException.class;
 
     /**
      * @return Message to associate with the Throwable to throws when the property is disable.
